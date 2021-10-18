@@ -4,7 +4,7 @@ const forms = (state) => {
     const form = document.querySelectorAll('form'),
           inputs = document.querySelectorAll('input');
 
-    checkNumInputs('input[name="user_phone"]')
+    checkNumInputs('input[name="user_phone"]');
 
     const message = {
         loading: 'Загрузка',
